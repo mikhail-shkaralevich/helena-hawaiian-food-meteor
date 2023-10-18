@@ -1,28 +1,117 @@
-/* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+/*.main-nav {*/
+/*  position: fixed;*/
+/*  top: 125px;*/
+/*}*/
 
-/* Set up some CSS variables to theme the application. */
-:root {
-  --matr-navbar-bg: #ECECEC;
-  --matr-navbar-bg-rgb: 236, 236, 236;
-}
+/*#background-image {*/
+/*  position: relative;*/
+/*  margin: -45px auto;*/
+/*  width: 100%;*/
+/*  z-index: 99;*/
+/*}*/
 
-/* Change bootstrap variable values.
- See https://getbootstrap.com/docs/5.2/customize/css-variables/
- */
 body {
-  --bs-light-rgb: var(--matr-navbar-bg-rgb);
+  font-family: 'PT Sans', sans-serif;
 }
 
-/* Set the alert background on the signin and signup pages. */
-#signin-page .alert-light, #signup-page .alert-light {
-  --bs-alert-bg: var(--matr-navbar-bg);
+h1, h2{
+  font-family: "Lora", serif;
 }
 
-/* Define custom styles */
-.gray-background {
-  background-color: var(--matr-navbar-bg);
-  color: var(--bs-dark);
-  padding-top: 10px;
-  padding-bottom: 20px;
+hr {
+  margin: 8em;
+  height: 2px;
+}
+
+/*.row1 {*/
+/*  margin-bottom: 8em;*/
+/*}*/
+
+/*.row2 {*/
+/*  margin-top: 8em;*/
+/*}*/
+
+.footer {
+  margin: 0 auto;
+  padding: 145px 250px 40px;
+  background-color: #333333;
+  color: white;
+}
+
+.media-icon {
+  width: 50px;
+  display: inline-block;
+}
+
+/*ul {*/
+/*  display: inline-block;*/
+/*}*/
+
+.background-image {
+  position: relative;
+  margin: -200px auto;
+  width: 100%;
+  z-index: 0;
+}
+
+.main-nav {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  z-index: 99;
+}
+
+#cta {
+  position: absolute;
+  top: 35em;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 70%;
+  z-index: 100;
+  text-align: center;
+}
+
+#cta h1 {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 4em;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-shadow: 2px 1px 2px #000000;
+}
+
+#cta h2 {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 4em;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-shadow: 2px 1px 2px #000000;
+}
+
+#cta a {
+  padding: 0.25em 1.5em 0.25em;
+  margin: 1em;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff;
+  border: 3px solid #fff;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 0;
+}
+
+#fake-span {
+  height: 500px;
+}
+
+#welcome {
+  margin-top: 100px;
 }
