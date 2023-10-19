@@ -1,15 +1,3 @@
-/*.main-nav {*/
-/*  position: fixed;*/
-/*  top: 125px;*/
-/*}*/
-
-/*#background-image {*/
-/*  position: relative;*/
-/*  margin: -45px auto;*/
-/*  width: 100%;*/
-/*  z-index: 99;*/
-/*}*/
-
 body {
   font-family: 'PT Sans', sans-serif;
 }
@@ -23,14 +11,6 @@ hr {
   height: 2px;
 }
 
-/*.row1 {*/
-/*  margin-bottom: 8em;*/
-/*}*/
-
-/*.row2 {*/
-/*  margin-top: 8em;*/
-/*}*/
-
 .footer {
   margin: 0 auto;
   padding: 145px 250px 40px;
@@ -42,10 +22,6 @@ hr {
   width: 50px;
   display: inline-block;
 }
-
-/*ul {*/
-/*  display: inline-block;*/
-/*}*/
 
 .background-image {
   position: relative;
@@ -114,4 +90,15 @@ button {
 
 #welcome {
   margin-top: 100px;
+}
+
+/*#col-3 {*/
+/*  display: flex!important;*/
+/*  justify-content: center!important;*/
+/*  flex: none!important;*/
+/*  width: auto!important;*/
+/*}*/
+
+#media {
+  padding-left: 55px;
 }
